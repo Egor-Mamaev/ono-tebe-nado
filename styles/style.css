@@ -37,8 +37,8 @@ body {
 }
 
 .header__link_active {
-  text-decoration: none;
   border-bottom: 0px;
+  text-decoration: none;
 }
 
 .header__logo {
@@ -91,6 +91,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 165px 50px 0px;
   color: #FFF;
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -98,7 +99,6 @@ body {
   font-style: normal;
   line-height: 115%;
   text-transform: uppercase;
-  padding: 165px 50px 0px;
 }
 
 .aligned-text {
@@ -147,15 +147,15 @@ body {
 }
 
 .bet-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 256px;
   height: 51px;
   border: 1px solid currentColor;
   color: #FFF;
   font-family: Raleway, sans-serif;
   font-weight: normal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-size: 22px;
   text-transform: uppercase;
   background: none;
@@ -332,8 +332,8 @@ body {
 }
 
 .footer__menu-link_active {
-  text-decoration: none;
   border-bottom: 0px;
+  text-decoration: none;
 }
 
 .footer__social-list {
