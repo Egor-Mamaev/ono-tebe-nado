@@ -147,9 +147,6 @@ body {
 }
 
 .bet-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 256px;
   height: 51px;
   border: 1px solid currentColor;
